@@ -1,0 +1,17 @@
+
+/* aplicarle este estilo a todas las etiquetas h2 que estén cerca de un párrafo (HErmano adyacente) */
+h2 + p{
+    color: red;
+}
+
+/* general siblings */
+
+h2 ~ p{
+    color: aquamarine;
+}
+
+/* hijo descendientes (hijo directo)  */
+
+div > p {
+    color: blueviolet;
+}
